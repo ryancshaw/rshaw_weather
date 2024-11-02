@@ -1,0 +1,43 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(5,12,48,1) 66%, rgba(195,49,49,1) 100%, rgba(162,69,69,1) 100%);
+}
+
+p,h1,h2,h3,h4,h5 {
+    color: lightgrey;
+    font-family: sans-serif;
+}
+
+
+
+.title{
+    margin-left:5%;
+    font-size:150%;
+}
+
+.upper-right-corner{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.upper-right-corner label {
+    margin-right: 10px;
+}
+
+#zip-code {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
